@@ -42,11 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bool2ToggleVisibilityCollapsedConverter.cs" />
-    <Compile Include="Bool2ToggleVisibilityConverter.cs" />
     <Compile Include="Bool2VisibilityConverter.cs" />
     <Compile Include="BoolInverseConverter.cs" />
     <Compile Include="ClipboardInputActionConverter.cs" />
+    <Compile Include="CustomParsers\CustomParsers.cs" />
+    <Compile Include="Custom\Custom.cs" />
     <Compile Include="FirstCharacterConverter.cs" />
     <Compile Include="MouseOverToScrollBarVisibility.cs" />
     <Compile Include="MultipleParameterConverter.cs" />
@@ -57,10 +57,12 @@
     <Compile Include="Selection2VisibilityConverter.cs" />
     <Compile Include="SideMenuExpConverter.cs" />
     <Compile Include="SideMenuItemColorConverter.cs" />
+    <Compile Include="StringLimitConverter.cs" />
     <Compile Include="StringMaxLenghtTreeDotsConverter.cs" />
     <Compile Include="TabControlNavigatorConverter.cs" />
     <Compile Include="TextBoxUnderLineColorConverter.cs" />
     <Compile Include="ToggleBoolConverter.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

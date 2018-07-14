@@ -1,0 +1,6 @@
+c:\users\e9396\source\repos\KOR.Converters\KOR.Converters\obj\Debug\KOR.Converters.csprojResolveAssemblyReference.cache
+c:\users\e9396\source\repos\KOR.Converters\KOR.Converters\obj\Debug\KOR.Converters.csproj.CoreCompileInputs.cache
+c:\users\e9396\source\repos\KOR.Converters\KOR.Converters\bin\Debug\KOR.Converters.dll
+c:\users\e9396\source\repos\KOR.Converters\KOR.Converters\bin\Debug\KOR.Converters.pdb
+c:\users\e9396\source\repos\KOR.Converters\KOR.Converters\obj\Debug\KOR.Converters.dll
+c:\users\e9396\source\repos\KOR.Converters\KOR.Converters\obj\Debug\KOR.Converters.pdb

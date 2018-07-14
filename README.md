@@ -19,7 +19,8 @@ C# namespace
 ```csharp
 using KOR.Converters;
 ```
-
+</b>
+</b>
 
 ### Bool2VisibilityConverter
 
@@ -37,7 +38,8 @@ using KOR.Converters;
 - **default-collapsed**: false=>Collapsed, true=>Visible
 - **toggle-hidden**: false=>Visible, true=>Hidden
 - **toggle-collapsed**: false=>Visible, true=>Collapsed
-
+</b>
+</b>
 
 ### StringLimitConverter
 
@@ -67,4 +69,6 @@ using KOR.Converters;
 **Caution**: LimitWords return only words, for example  
 Parameter: word-5-...  
 Sended value: "This examples depends/up to your imaginations"  
-Return value: "This examples depends up to..." (there is not slash / anymore)  
+Return value: "This examples depends up to..." (there is not slash / anymore)
+</b>
+</b>

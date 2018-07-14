@@ -65,6 +65,6 @@ using KOR.Converters;
 - **word-3-...**: sended value: I can not o this, return value: I can not...
 
 **Caution**: LimitWords return only words, for example
-Parameter: word-5-OK
-Sended value: "This examples depends/up to your imaginations"
-Return value: "This examples depends up to" (there is not slash / anymore)
+Parameter: word-5-OK  
+Sended value: "This examples depends/up to your imaginations"  
+Return value: "This examples depends up to" (there is not slash / anymore)  

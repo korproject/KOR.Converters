@@ -20,7 +20,8 @@ C# namespace
 using KOR.Converters;
 ```
 
-### Bool2VisibilityConverter
+### Bool2VisibilityConverter, Null2VisibilityConverter
+Bool2VisibilityConverter
 
 ```xaml
 ...
@@ -37,6 +38,20 @@ using KOR.Converters;
 - **toggle-hidden**: false=>Visible, true=>Hidden
 - **toggle-collapsed**: false=>Visible, true=>Collapsed
 
+ConvertBack +  
+
+<br>
+Null2VisibilityConverter
+
+```xaml
+...
+<converters:Null2VisibilityConverter x:Key="Null2VisibilityConverter"/>
+
+...
+... Visibility="{Binding MyVariable, Converter={StaticResource Null2VisibilityConverter}, ConverterParameter=toggle-collapsed}" ...
+```
+
+ConvertBack -
 
 ### StringLimitConverter
 
@@ -67,3 +82,19 @@ using KOR.Converters;
 Parameter: word-5-...  
 Sended value: "This examples depends/up to your imaginations"  
 Return value: "This examples depends up to..." (there is not slash / anymore)
+
+ConvertBack -
+
+
+### BoolInverseConverter
+
+```xaml
+...
+<converters:BoolInverseConverter x:Key="BoolInverseConverter"/>
+
+...
+... Checked="{Binding ElementName=XYZElement, Path=IsExpanded, Converter={StaticResource BoolInverseConverter}}" ...
+```
+*There is not command parameter*
+
+ConvertBack +
